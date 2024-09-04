@@ -1,0 +1,87 @@
+/* Reset some basic styles for better consistency across browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* Main header styling */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Subheader styling */
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  color: #555;
+  border-bottom: 2px solid #ddd;
+  text-align: center;
+}
+
+/* Input styling */
+#taskInput {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Button styling */
+button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Ordered list styling */
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* List item styling */
+ol li {
+  background-color: #fff;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Delete button styling */
+ol li button {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ol li button:hover {
+  background-color: #c82333;
+}
