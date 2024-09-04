@@ -42,8 +42,7 @@ h2 {
 /* Button styling */
 button {
   padding: 10px 20px;
-  /* background-color: #007BFF; */
-  background-color: yellow;
+  background-color: #007BFF;
   color: white;
   border: none;
   border-radius: 4px;
